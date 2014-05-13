@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+<title>Twitter Bootstrap Tutorial - A responsive layout tutorial</title>
+
+<style type='text/css'>
+    body {
+    background-color: #CCC;
+    }
+</style>
+
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+<link type="text/css" rel="stylesheet" href="css/offcanvas.css"/>
+
+</head>
+<body>
+
+    <div class="container">
+        
+        <h1>TWITTER BOOTSTRAP TUTORIAL</h1>
+        
+        <div class='navbar navbar-inverse'>
+            <div class='navbar-inner nav-collapse' style="height: auto;">
+                
+              <ul class="nav">
+                
+                <!--Home-->
+                <li class="active">
+                    <a href="#">Home</a>
+                </li><!--End of Home-->
+                
+                <!--Page One-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Page One <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Item1</a></li>
+                        <li><a href="#">Item2</a></li>
+                        <li><a href="#">Item3</a></li>
+                    </ul>
+                </li><!--End of menu Page One-->
+                
+                <!--Page Two-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Page Two <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Item1</a></li>
+                        <li><a href="#">Item2</a></li>
+                        <li><a href="#">Item3</a></li>
+                    </ul> 
+                </li><!--End of menu Page Two-->
+                
+              </ul><!--End of main menu-->
+            </div>
+            
+            <!-- Nav Bar -->
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#">About</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+                <h3 class="text-muted">Tina's Trinkets</h3>
+            </div>
+            
+            <!-- Call to action -->
+            <div class="jumbotron">
+                <h1>Hi</h1>
+                <p>content content content content</p>
+                <p><a class="btn btn-primary btn-lg"
+                        role="button">Learn more $raquo;</a></p>
+            </div>
+            
+            <!-- Three column layout -->
+            <div class="row">
+                <!-- Column 1 -->
+                <div class="col-md-4">
+                    <h2>Trinkets</h2>
+                    <p></p>
+                    <p><a class="btn btn-default" href="#"
+                            role="button">View Details $raquo;</a></p>
+                </div>
+                
+                <!-- Column 2 -->
+                <div class="col-md-4">
+                    <h2>Drinkets</h2>
+                    <p></p>
+                    <p><a class="btn btn-default" href="#"
+                            role="button">View Details $raquo;</a></p>
+                </div>
+                
+                <!-- Column 3 -->
+                <div class="col-md-4">
+                    <h2>Prinkets</h2>
+                    <p></p>
+                    <p><a class="btn btn-default" href="#"
+                            role="button">View Details $raquo;</a></p>
+                </div>
+            </div>
+            
+
+            
+            <!--menu toggle-->
+            <div class="visible-xl">
+                <button class="btn btn-primary btn-xl" data-toggle="offcanvas">Menu</button>
+            </div><!--end menu toggle-->
+            
+            
+  
+            <div id='content'>
+                
+                
+                <!--actual menu-->
+                <div class="row row-offcanvas row-offcanvas-left">
+                    <div class="span2 sidebar-offcanvas"><!--sidebar-offcanvas makes menu disappear on smaller devices-->
+                        <ul class="nav nav-tabs nav-stacked">
+                            <li><a href='#'>Another Link 1</a></li>
+                            <li><a href='#'>Another Link 2</a></li>
+                            <li><a href='#'>Another Link 3</a></li>
+                            <li><a href='#'>Another Link 4</a></li>
+                            <li><a href='#'>Another Link 5</a></li>
+                            <li><a href='#'>Another Link 6</a></li>
+                            <li><a href='#'>Another Link 7</a></li>
+                            <li><a href='#'>Another Link 8</a></li>
+                            <li><a href='#'>Another Link 9</a></li>
+                        </ul>
+                    </div><!--end of span2 sidebar-->
+                    
+                <div class="span9 main">
+                    <h2>Main Content Section</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                    suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                    vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan
+                    et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.<p>
+                </div>
+                    
+                </div><!--end of row row-offcanvas row-offcanvas-left-->
+                
+                
+                
+    
+                
+            </div><!--end of content/row-fluid-->
+        </div><!--end of navbar navbar-inverse--> 
+        
+    </div><!--end of container wrapper-->
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/offcanvas.js"></script>
+
+<!-- Footer -->
+<hr>
+<footer>
+    <p> $copty; Copy</p>
+</footer>
+
+</body>
+
+
+</html>
